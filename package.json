@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-template",
+  "version": "1.0.0",
+  "description": "Bootstrap Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start http://localhost:8080 && http-server ./content/ -a localhost -p 8080 -d false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wazeedahamed/bootstrap-template.git"
+  },
+  "author": "wazeedahamed@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wazeedahamed/bootstrap-template/issues"
+  },
+  "homepage": "https://github.com/wazeedahamed/bootstrap-template#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
